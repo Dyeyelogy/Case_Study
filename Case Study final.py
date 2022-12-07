@@ -4,7 +4,7 @@ print("\nDestination")
 print("1. American Region\n2. Asian Region\n3. African Region\n4. European Region\n")
 while True:
     destination_code = int(input("Input Destination Code: "))
-    if destination_code in range (1,4):
+    if destination_code in range (1,5):
         if destination_code == 1:
             print("\nTime Code")
             print("A. Day\nB. Night")
